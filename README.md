@@ -1,3 +1,3 @@
 # mi_diseno
 
-A new Flutter project.
+Diseño creado de figma a flutter 
