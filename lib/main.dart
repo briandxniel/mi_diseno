@@ -40,7 +40,8 @@ class BotonPersonalizado extends StatelessWidget{
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
         decoration: BoxDecoration(
-          color: const Color(0xFF3333FF),
+          //fondo blanco
+          color: const Color(0xFFFFFFFF),
           borderRadius: BorderRadius.circular(8),
           boxShadow: [
             BoxShadow(
@@ -52,8 +53,9 @@ class BotonPersonalizado extends StatelessWidget{
         ),
         child: Text(
           texto,
+          //azul 
           style: const TextStyle(
-            color: Color(0xFFFFFFFF),
+            color: Color(0xFF3333FF),
             fontSize: 16,
             fontWeight: FontWeight.bold,
           ),
